@@ -1,0 +1,81 @@
+.container {
+    width: 88%;
+    height: 240px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #161616;
+    font-family: "Roboto", sans-serif;
+}
+
+.songList {
+    width: 100%;
+    height: 185px;
+}
+
+.song {
+    width: 100%;
+    height: 44px;
+    box-sizing: border-box;
+    display: flex;
+    cursor: pointer;
+}
+
+.song:hover {
+    background: #262626;
+}
+
+.songNumber {
+    color: #a0a0a0;
+    padding-left: 0.95%;
+    padding-right: 4%;
+    padding-top: 1.2%;
+    font-size: 1.1rem;
+}
+
+.songTitle {
+    padding-top: 1.2%;
+}
+
+.songArtist {
+    padding-top: 1.2%;
+    padding-left: 0.47%;
+}
+
+.title {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.artist {
+    color: #a0a0a0;
+    font-size: 1.1rem;
+}
+
+.footBar {
+    width: 100%;
+    background: #262626;
+}
+
+.buttons {
+    width: 30%;
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+}
+
+.fas {
+    font-size: 26px;
+    color: #aaa9a9;
+}
+
+.fas:hover {
+    color: white;
+}
+
+.fa-pause {
+    display: none;
+}
